@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\CardProj.exe.config
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\CardProj.exe
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\CardProj.pdb
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\CardProj\CardProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.csprojAssemblyReference.cache
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.csproj.CopyComplete
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.exe
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.pdb
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.Migrations.CeatedUSerCardUSerCard.resources
+C:\Users\User\source\repos\CardProj\CardProj\obj\Debug\CardProj.csproj.GenerateResource.cache
