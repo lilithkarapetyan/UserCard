@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardManagerProj.dll.config
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardManagerProj.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardManagerProj.pdb
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardDbProj.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardDbProj.pdb
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\CardDbProj.dll.config
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\obj\Debug\CardManagerProj.csprojAssemblyReference.cache
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\obj\Debug\CardManagerProj.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\obj\Debug\CardManagerProj.csproj.CopyComplete
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\obj\Debug\CardManagerProj.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardManagerProj\obj\Debug\CardManagerProj.pdb

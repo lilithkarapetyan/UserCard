@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\CardDbProj.dll.config
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\CardDbProj.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\CardDbProj.pdb
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.csproj.CopyComplete
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.dll
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.pdb
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.Migrations.CreatedUserCardCardUser.resources
+C:\Users\User\Desktop\C#\1\CardAppProj\CardDbProj\obj\Debug\CardDbProj.csproj.GenerateResource.cache
