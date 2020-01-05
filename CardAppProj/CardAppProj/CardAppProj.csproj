@@ -64,6 +64,10 @@
       <Project>{c7c5d5ef-e762-4714-a086-2ff1d614d9d3}</Project>
       <Name>CardManagerProj</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\DbProj\DbProj\DbProj.csproj">
+      <Project>{1FA701EB-927A-4A56-8B42-78FCF7194211}</Project>
+      <Name>DbProj</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

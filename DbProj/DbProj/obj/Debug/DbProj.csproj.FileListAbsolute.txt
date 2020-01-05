@@ -12,3 +12,17 @@ C:\Users\User\Desktop\C#\DbProj\DbProj\obj\Debug\DbProj.dll
 C:\Users\User\Desktop\C#\DbProj\DbProj\obj\Debug\DbProj.pdb
 C:\Users\User\Desktop\C#\DbProj\DbProj\obj\Debug\DbProj.Migrations.CreatesCardUserUserClass.resources
 C:\Users\User\Desktop\C#\DbProj\DbProj\obj\Debug\DbProj.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\DbProj.dll.config
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\DbProj.dll
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\DbProj.pdb
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.csprojAssemblyReference.cache
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.Migrations.CreatesCardUserUserClass.resources
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.csproj.CopyComplete
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.dll
+C:\Users\User\Desktop\C#\UserCard\DbProj\DbProj\obj\Debug\DbProj.pdb
