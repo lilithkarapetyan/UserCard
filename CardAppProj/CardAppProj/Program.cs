@@ -13,12 +13,13 @@ namespace CardAppProj
         {
             using (CardManager cm = new CardManager())
             {
-                cm.AddCard("Aldo", 20);
+                cm.AddCard("Sali", 30);
             }
             using (UserManager um = new UserManager())
-            {
-                um.AddUser("Lilit", "Karapetyan", "37477066436", DateTime.Now);
-                um.AddUserCard("37477066436", 1);
+            {   
+                //um.AddUser("Lilit", "Karapetyan", "37477066436", DateTime.Now);
+                um.AddUserCard("37477066436", 2);
+                um.GetUserCards(Guid.Parse("21E45A4B - F52F - EA11 - 9BA6 - 3C6AA797F172"));
             }
         }
     }
