@@ -25,15 +25,10 @@ namespace CardManagerProj.Managers
 
         public User FindUser(string pNumber)
         {
-            return (
-                        from u in dbCtx.Users
-                        where u.PhoneNumber == pNumber
-                        select u
-                    )
-                    .First<User>();
+            return dbCtx.Users.Where(u => u.PhoneNumber == pNumber).FirstOrDefault();
         }
 
-        public void AddUserCard(Guid uId, int cId)
+        public void AddUserCard(Guid uId, int cId)      
         {
             UserCard newUserCard = new UserCard
             {
@@ -52,20 +47,29 @@ namespace CardManagerProj.Managers
             AddUserCard(uId, cId);
         }
 
-        public Card[] GetUserCards(Guid id)
+        public Card[] GetUserCards(Guid? id, string pNumber)
         {
-            return (
+            if (id != null)
+            {
+                return (
                     from uc in dbCtx.UsersCards
                     where uc.UserId == id
                     join card in dbCtx.Cards on uc.CardId equals card.CardId
                     select card
                     ).ToArray();
-        }
+            }
+            else
+            {
 
-        public Card[] GetUserCards(string pNumber)
-        {
-            Guid uId = FindUser(pNumber).UserId;
-            return GetUserCards(uId);
+                return (
+                    from uc in dbCtx.UsersCards
+                    join user in dbCtx.Users on uc.UserId equals user.UserId
+                    join card in dbCtx.Cards on uc.CardId equals card.CardId
+                    where user.PhoneNumber == pNumber
+                    select card
+                    ).ToArray();
+
+            }
         }
     }
 }
