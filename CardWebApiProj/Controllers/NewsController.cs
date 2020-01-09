@@ -1,4 +1,5 @@
-﻿using CardWebApiProj.Models;
+﻿using CardWebApiProj.Authentication;
+using CardWebApiProj.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -13,13 +14,11 @@ namespace CardWebApiProj.Controllers
 {
     public class NewsController : BaseController
     {
-        protected HttpClient client = new HttpClient();
-
         [HttpGet]
         [Route("api/news")]
         public async Task<IHttpActionResult> Get()
         {             
-            HttpResponseMessage response = await client.GetAsync(baseUri+"api/m/news2?PageSize=20&PageNumber=0");
+            HttpResponseMessage response = await new HttpClient().GetAsync(baseUri+"api/m/news2?PageSize=20&PageNumber=0");
             JObject product = null;
             if (response.IsSuccessStatusCode)
             {
@@ -31,10 +30,11 @@ namespace CardWebApiProj.Controllers
         
 
         [HttpGet]
+        [Auth]
         [Route("api/news/{id}")]
         public async Task<IHttpActionResult> Get(int id)
         {
-            HttpResponseMessage response = await client.GetAsync(baseUri + "api/m/news2/" + id);
+            HttpResponseMessage response = await new HttpClient().GetAsync(baseUri + "api/m/news2/" + id);
             JObject news = null;
             if (response.IsSuccessStatusCode)
             {
@@ -49,7 +49,7 @@ namespace CardWebApiProj.Controllers
         [Route("api/news/categories")]
         public async Task<IHttpActionResult> GetCategories()
         {
-            HttpResponseMessage response = await client.GetAsync(baseUri + "api/categories");
+            HttpResponseMessage response = await new HttpClient().GetAsync(baseUri + "api/categories");
             NewsCategory[] categories = null;
             if (response.IsSuccessStatusCode)
             {
