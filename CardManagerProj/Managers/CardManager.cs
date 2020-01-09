@@ -21,5 +21,10 @@ namespace CardManagerProj.Managers
             dbCtx.Cards.Add(newCard);
             dbCtx.SaveChanges();
         }
+
+        public Card GetCard(int id)
+        {
+            return dbCtx.Cards.Where(c => c.CardId == id).FirstOrDefault();
+        }
     }
 }

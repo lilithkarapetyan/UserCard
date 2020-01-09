@@ -25,7 +25,8 @@ namespace CardAppProj
 
                 um.AddUserCard("37477066436", 2);
                 */
-                var cards = um.GetUserCards(Guid.Parse("59C6A8F9-0430-EA11-9BA6-3C6AA797F172"));
+                //Guid.Parse("59C6A8F9-0430-EA11-9BA6-3C6AA797F172")
+                var cards = um.GetUserCards(null, "37477066436");
 
                 foreach (var c in cards)
                 {
